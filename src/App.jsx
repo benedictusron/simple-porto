@@ -31,13 +31,16 @@ function App() {
       <div className='tentang mt-32 py-10' id='About'>
         <div className='xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-100/50  backdrop-blur-md rounded-lg' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.hero1} alt="Hero Image" className='w-12 rounded-md mb-6 sm:hidden hidden' loading='lazy'  />
-          <p className='text-base/loose mb-10 text-justify'>
-            A Bachelor of Informatics Engineering graduate with a strong interest in Full-Stack Development (HTML, CSS, JavaScript, React.js, Node.js) and the creation of scalable web applications. Possesses 2 years of prior experience as an IT Staff with expertise in troubleshooting, system administration, and hardware/software management. Seeking a full-time role to merge a comprehensive technical background with a dedication to innovative software development. 
-            Currently working as a Full-Stack Developer while attending a Full-Stack Web Developer bootcamp to deepen technical expertise.
+          {/* <p className='text-base/loose mb-10 text-justify'> */}
+          <p className='text-base leading-relaxed mb-10 text-center sm:text-justify'>
+            A Bachelor of Informatics Engineering graduate with a strong interest in Full-Stack Development (HTML, CSS, JavaScript, React.js, Node.js) 
+            and the creation of scalable web applications. Possesses 2 years of prior experience as an IT Staff with expertise in troubleshooting, system administration, and hardware/software management. 
+            Seeking a full-time role to merge a comprehensive technical background with a dedication to innovative software development. 
+            Currently seeking opportunities as a Front-End or Full-Stack Developer to apply and expand my skills in modern web development.
           </p>
           <div className='flex items-center justify-between'>
             <img src={DataImage.hero1} alt="Hero Image" className='w-12 rounded-md sm:block hidden' loading='lazy' />
-            <div className='flex items-center gap-6'>
+            <div className='flex items-center justify-center gap-6'>
               {/* <div>
                 <h1 className='text-4xl mb-1'>4 <span className='bg-gradient-to-r from-fuchsia-500 via-violet-500 to-pink-500 bg-clip-text text-transparent'>+</span></h1>
                 <p>Project Completed</p>
